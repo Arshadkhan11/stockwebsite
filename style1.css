@@ -1,0 +1,291 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+}
+body
+{
+	overflow-x: hidden;
+}
+.menu-bar
+{
+	font-family:sans-serif;
+	min-height: 8%;
+	background-image: linear-gradient(to right, #09c6f9,#045de9);
+	
+}
+.menu-bar ul
+{
+	padding: 10px;
+}
+.menu-bar img
+{
+	width: 250px;
+}
+
+.nav-link{
+	color: white;
+	padding-left: 10px;
+	font-family: "sans-serif";
+	font-weight: 600;
+}
+.nav-link:hover{
+	color:black;
+}
+.nav-link active
+{
+	colour:#000;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px;
+}
+.navbar-toggler.fa
+{
+	color: #fff;
+}
+.navbar-toggler{
+	outline: none;
+	padding:0 10;
+	f0nt-weight:600;
+}
+/*..............banner section...................*/
+#banner
+{
+	background-image: linear-gradient(to right, #09c6f9,#045de9);
+	color: #fff;
+	padding-top: 5%;
+}
+.promo-title
+{
+	font-size: 40px;
+	f0nt-weight:600;
+	margin-top: 100px;
+}
+.bottom-img
+{
+	width: 100%
+		
+}
+.img-fluid1
+{
+	padding-top: 66px;
+}
+/*.....about.........................................*/
+.title::before
+{
+	content: '';
+	background: #045de9;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
+.title::after
+{
+	content: '';
+	background:  #045de9;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(8px);
+}
+.trust h4
+{
+	margin: 30px;
+}
+.img-fluid
+{
+	margin-bottom: 020px;
+	border-radius: 50%;
+	padding: 1px;
+	border: 8px solid transparent;
+	background: linear-gradient(to right, #09c6f9,#045de9);
+}
+/*.....team.........................................*/
+
+.team-area
+{
+	padding: 60px 0;
+		
+}
+.section-heading
+{
+	text-align: center;
+	color: black;
+	margin: 50px;
+	text-transform: uppercase;
+	
+	
+}
+.section-heading::before
+{
+	content: '';
+	background: #045de9;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	display: block;
+	transform: translateY(63px);
+}
+.section-heading::after
+{
+	content: '';
+	background:  #045de9;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(8px);
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+	padding-top: 20px;
+}
+.team .team_member:hover
+{
+  background:  #09c6f9; 
+
+}
+
+.team .team_member{
+  background: #d9dddc;
+  margin: 25px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: black;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: lightblue;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: darkblue;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: blue;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+/*..........................footer section................................*/
+#footer
+{
+	margin-top: 30px;
+	width: 100%;
+	background-image: linear-gradient(to right, #09c6f9,#045de9);
+	color: #fff;
+}
+.footer-img
+{
+	width: 100%;
+}
+.footer-box
+{
+	width: 100%; padding:20px;}
+.footer-box p
+{
+	font-size: 20px;
+}
+.footer-box img
+{
+	width: 120px;
+	margin-bottom: 20px;
+}
+.foot
+{
+	color: ghostwhite;
+}
+.footer-box .fa
+{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #09c6f9,#045de9);
+}
+.footer-box .form-control
+{
+	box-shadow: none;
+	border: none;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 300px;
+}
+.footer-box .btn-primary
+{
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	margin-top: 30px;
+	background-image: linear-gradient(to right, #09c6f9,#045de9);
+	color: lightblue;
+	width: 50%;
+	padding: 10px;
+	border: 1px solid #3498db;
+	border-radius: 20px;
+	border-radius-color:blue;
+	font-size: 20px;
+	margin: 10px 0;
+	border: none;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.footer-box .btn-primary:hover
+{
+	color: darkblue;
+}
+hr
+{
+	background-color: #fff;
+}
+.copyright
+{
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
